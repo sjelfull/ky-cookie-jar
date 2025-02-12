@@ -17,7 +17,8 @@
 	},
 	"sideEffects": false,
 	"engines": {
-		"node": ">=20"
+		"node": ">=20",
+		"pnpm": ">=8"
 	},
 	"scripts": {
 		"test": "xo && ava && tsc --project tsconfig.json",
@@ -55,5 +56,6 @@
 		"rules": {
 			"no-console": "off"
 		}
-	}
+	},
+	"packageManager": "pnpm@10.3.0"
 }
